@@ -1,0 +1,6 @@
+*.ai
+*.swp
+*.tmp
+
+.DS_Store
+
