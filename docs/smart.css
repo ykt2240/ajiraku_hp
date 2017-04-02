@@ -1,0 +1,162 @@
+@media screen and (max-width: 640px){
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+#wrapper {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+body {
+  min-width: 320px;
+  background: #fff;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+#mainImage {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px;
+  margin-bottom: 1px;
+}
+
+#Logo {
+  width: 130px;
+  float: left;
+  z-index: 10;
+  padding: 10px 10px;
+
+　/*height: 450px;
+  width: 500px;*/
+
+}
+
+
+#mainImage img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  /*position: relative;*/
+}
+
+#globalNav {
+  background-color: #cc9966;
+  margin-bottom: 40px;
+}
+
+#globalNav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  font-size: 0;
+}
+
+#globalNav li {
+  margin: 0 auto;
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  border-left: 0.5px solid #fff;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+#mainContent {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+#subContent {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+#Menu {
+  width: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#menu {
+  width: 75%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#information {
+  width: 100%;
+  height: 200px;
+  margin: 10px;
+}
+
+#news {
+  width: 70%;
+  margin-left: 10px;
+  margin-right: 20px;
+  background: url(images/木材.jpg) repeat-x;
+  margin-bottom: 5px;
+}
+
+.infoList {
+  width: 90%;
+  overflow-y: scroll;
+  height: 150px;
+  border: 2px solid #000;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+#footer {
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #202020;
+
+}
+
+#footerLeft {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4px;
+  padding-top: 5px;
+}
+
+.btn {
+  opacity: 1;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+}
